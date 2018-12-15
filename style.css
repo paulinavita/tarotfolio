@@ -1,0 +1,292 @@
+
+html, body {
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  margin:0px;
+  padding:0px;
+  overflow-x: hidden;
+  }
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #001418;
+  margin: 0;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-size: 17px;
+    color: #979797;
+    line-height: 1.8;
+  }
+  
+  
+  /*----header---*/
+
+.header-section {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .logo{
+    display: inline-block;
+    float: left;
+  }
+
+  .site-logo {
+    font-size: 28px;
+    padding-top: 20px;
+    }
+  
+  .main-menu ul {
+    list-style: none;
+    width: 100%;
+  }
+  
+  .main-menu{
+    display: inline-flex;
+    margin-top: -15px;
+  }
+
+  .main-menu ul li {
+    display: inline-block;
+  }
+  
+  .all-header-button {
+    width: 90%;
+
+  }
+
+  .main-menu ul li a {
+    display: inline-block;
+    font-size: 18px;
+    color: #001418;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px 0 5px;
+    float: left;
+  }
+  
+  .nav-switch {
+    display: none;
+  }
+
+  .container-header{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+   }
+
+/*----intro-----*/
+.introduction {
+    padding: 110px 0;
+    display: block;
+    line-height: 50px;
+}
+
+.section-title {
+  margin-left: 0;
+  font-size: 60px;
+}
+
+span {
+  color: lightgray;
+}
+.added-info {
+  font-size: 30px;
+  color: grey;
+}
+
+/*---button---*/
+.site-btn {
+    display: inline-block;
+    font-size: 14px;
+    min-width: 140px;
+    text-align: center;
+    padding: 15px 10px;
+    position: relative;
+    color: #fff;
+    border: none;
+    background-color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 1;
+}
+
+ .header-section .site-btn  {
+   float: right;
+   
+    }
+/*----portofolio section----*/
+
+/*----hover tarot dan row 1 kebawah gak sampe row 2----*/
+.row1 {
+  display: inline-flex;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  padding-top: 40px;
+  padding-right: 2px;
+  width: 100%;
+}
+
+.image-see-project-container{
+position: relative;
+width: 50%;
+}
+
+.portofolio-image {
+display: block;
+height: auto;
+width: 93%
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 93%;
+opacity: 0;
+transition: 0.5s ease;
+background-color: #FF7F49;
+}
+
+.image-see-project-container:hover .overlay {
+  opacity: 0.6;
+}
+
+.see-project-text {
+  color: white;
+  font-size: 27px;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.
+
+/*----hover porto foto- dan row 2 kebawah gak sampe footer----*/
+
+.row2 {
+  display:block;
+  width: 100%;
+  margin: 0px;
+}
+
+.portofolio-image2 {
+  display: block;
+  width: 203%;
+
+  }
+  
+  .overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 203%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #FF7F49;
+  }
+  
+  .image-see-project-container:hover .overlay2 {
+    opacity: 0.6;
+  }
+  
+  .see-project-text {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%
+  }
+
+/*---- footer ---*/
+
+.lets-work-container {
+  padding-top: 100px;
+  font-size: 20px;
+}
+
+.footer-button-container {
+  
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/*---- about me ----*/
+
+.about-me-container {
+   max-width: 1000px;
+  margin-left: 130px;
+  max-height: 1200px;
+  display: inline-flex;
+}
+
+.par-about-me{
+  max-width: 530px;
+  display: inline-flex;
+  float: left;
+  margin-left: 20px;
+   margin-top: -50px;
+}
+
+.right-photo-container {
+  
+  width:30%;
+  display: inline-flex;
+  margin-left: 50px;
+}
+
+.about-me-img{
+width: 105%;
+}
+
+#signature {
+  width: 23%;
+}
+
+/*---- booking form ----*/
+
+.book-container {
+ 
+  max-width: 90%;
+  margin-left: 60px;
+}
+
+.book-col {
+ border: none;
+}
+
+.book-col, input, select {
+  width: 70%;
+  padding: 12px 12px;
+  margin: 0px;
+  display: inline-block;
+  border-radius: 2px;
+  border:none;
+}
+
+
